@@ -20,20 +20,21 @@
 
 <body <?php body_class(); ?>>
 	
-	<div class="header-area full"> 
+	<div class="header-area full" style="background-color:#2C3E50;"> 
 		<div class="main-page">
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'colaba' ); ?></a>
 
 			<header id="masthead" class="site-header inner" role="banner">
 				<div class="site-branding">
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+					<!--><h2 class="site-description"><?php //bloginfo( 'description' ); ?></h2><!-->
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<button class="menu-toggle"><?php _e( 'Primary Menu', 'colaba' ); ?></button>
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb'=>'__return_false' ) ); ?>
+					</nav><!-- #site-navigation -->
 				</div>
 
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle"><?php _e( 'Primary Menu', 'colaba' ); ?></button>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb'=>'__return_false' ) ); ?>
-				</nav><!-- #site-navigation -->
+				
 			</header><!-- #masthead -->
 		</div><!--main-page-->
 	</div> <!--header-area-->	
