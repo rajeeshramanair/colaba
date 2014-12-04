@@ -435,13 +435,13 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #18BC9C;
 }
 
 /*--------------------------------------------------------------
@@ -822,4 +822,15 @@ Responsive
 	.inner{
 		padding:0 20px;
 	}
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+.header-area{
+	background-color:#2c3e50;
+}
+
+.site-title{
+	color:#fff;
 }

@@ -20,7 +20,7 @@
 
 <body <?php body_class(); ?>>
 	
-	<div class="header-area full" style="background-color:#2C3E50;"> 
+	<div class="header-area full"> 
 		<div class="main-page">
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'colaba' ); ?></a>
 
