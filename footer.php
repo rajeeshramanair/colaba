@@ -17,7 +17,7 @@
 		<div class="site-info" style="text-align:center;">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'colaba' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'colaba' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'colaba' ), 'colaba', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'colaba' ), 'colaba', '<a href="http://twitter.com/rajeeshramanair" rel="designer" target="_blank">Underscore</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 

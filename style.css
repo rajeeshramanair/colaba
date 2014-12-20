@@ -51,11 +51,11 @@ Structure
 	
 }
 .main-page{
-	max-width:1040px;
+	max-width:1200px;
 	margin:0 auto;
 }
 .inner{
-	padding:2em 0;
+	padding:2em 20px;
 }
 
 #primary{
@@ -273,11 +273,18 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 0em 1em;
 }
 
 ul {
-	list-style: disc;
+	list-style-image: url('images/arrow.png');
+	margin-left:23px;
+	
+}
+ul img{
+	margin-bottom: .25em;
+	vertical-align: middle;
+	margin-right: 8px;
 }
 
 ol {
@@ -435,7 +442,7 @@ a {
 }
 
 a:visited {
-	color: #fff;
+	color: #18BC9C;
 }
 
 a:hover,
@@ -443,6 +450,14 @@ a:focus,
 a:active {
 	color: #18BC9C;
 }
+/*heading*/  
+
+a:hover.headings,
+a:focus.headings,
+a:active.headings {
+	color:#fff;
+}
+
 
 /*--------------------------------------------------------------
 5.2 Menus
@@ -468,6 +483,12 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color:#fff ;
+	padding-right:10px;
+}
+
+.main-navigation a:hover {
+	color:#18BCB1;
 }
 
 .main-navigation ul ul {
@@ -493,6 +514,11 @@ a:active {
 }
 
 .main-navigation li:hover > a {
+	color:#18bcb1;
+}
+
+.main-navigation li:active > a {
+	color:#18bcb1;
 }
 
 .main-navigation ul ul :hover > a {
@@ -823,6 +849,11 @@ Responsive
 		padding:0 20px;
 	}
 }
+@media screen and (min-width:801px){
+	.inner{
+		
+	}
+}
 
 /*--------------------------------------------------------------
 Header
@@ -838,3 +869,4 @@ Header
 .header-transform{
 	text-transform:uppercase;
 }
+
