@@ -3,6 +3,7 @@ Theme Name: colaba
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
+Template: colaba
 Description: Description
 Version: 1.0-wpcom
 License: GNU General Public License v2 or later
@@ -47,11 +48,6 @@ and Blueprint http://www.blueprintcss.org/
 /*--------------------------------------------------------------
 Structure
 --------------------------------------------------------------*/
-
-
-.full{
-	
-}
 .main-page{
 	max-width:1200px;
 	margin:0 auto;
