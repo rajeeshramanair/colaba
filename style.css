@@ -51,6 +51,11 @@ Structure
 .main-page{
 	max-width:1200px;
 	margin:0 auto;
+	margin:5px;
+	    padding:5px;
+	    font-family: Tahoma, Verdana, Helvetica, sans-serif; 
+	    font-size: 100%;
+	    color: black;
 }
 .inner{
 	padding:2em 20px;
@@ -165,7 +170,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: Verdana;
 	font-size: 16px;
 	line-height: 1.5;
 }
